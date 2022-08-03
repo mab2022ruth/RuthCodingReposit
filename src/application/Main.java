@@ -9,17 +9,21 @@ import javafx.scene.layout.VBox;
 
 
 public class Main extends Application {
-	@Override
+	//Override
 	public void start(Stage primaryStage) {
 		try {
 			VBox root = new VBox();
+
+
 
 			root.getChildren().add(new Label("Mohamad Allaq's label"));
 			root.getChildren().add(new Label("Mohamad Allaq's branch"));
 			
 
 			root.getChildren().add(new Label("Ruth's label"));
+
 			
+			root.getChildren().add(new Label("Ruth's label"));	
 			root.getChildren().add(new Label("Ruth's branch label"));
 
 			Scene scene = new Scene(root,400,400);
